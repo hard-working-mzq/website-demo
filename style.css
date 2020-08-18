@@ -1,0 +1,252 @@
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        font-size: 15px;
+    }
+
+    body {
+        background-image: url("images/内容底板.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+
+    h4, span {
+        display:inline-block;
+        color: white;
+        word-break: break-all;
+        padding-top: 5%;
+        font-size: 1rem;
+    }
+
+    p {
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding-top: 3%;
+    }
+
+    header > img {
+    	display: block;
+    	height: auto; 
+    	width:100%;
+    	width: auto\9; 
+    }
+
+    #fixedqr {
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 77%;
+        width: 8%;
+    }
+	
+    .logo {
+        display: flex;
+        justify-content: center;
+        padding-top: 4%;
+    }
+
+    .logo > img {
+		display: block;
+		width: 25%;
+    }
+
+    .rights, .item {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 8%;
+    }
+
+    #h5, #one1 {
+        display: none;
+    }
+    
+    .Fill {
+        background-image: url("images/Fill 1.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        z-index: 1;
+        width: 50.1%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .Fill > img {
+        width: 45%;
+        margin-top: -6%;
+        margin-bottom: 10%;
+        padding-left: 3%;
+    }
+
+    .text {
+        padding-left: 3%;
+        width: 45%;
+        margin-top: -6%;
+    }
+
+    .text > img {
+        width: 45%;
+    }
+
+    .btn1 {
+        float: right;
+        padding-right: 3%;
+    }
+
+    .btn2 {
+        display: none;
+    }
+
+    .icon {
+        width: 50.1%;
+        color: white;
+        background-image: url("images/标题方块.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        text-align:center;
+        padding: 1%;
+        z-index: 1;
+    }
+
+    .rectangle {
+        background-image: url("images/矩形.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 50.1%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: -6%;
+    }
+
+    .rectangle > img {
+        width: 35%;
+        margin-top: 10%;
+        padding: 4%;
+        padding-bottom: 0;
+    }
+
+    .video1, .video2 {
+        width: 35%;
+        text-align:center;
+        color: white;
+        padding: 5%;
+        padding-top: 3%;
+    }
+
+    .rights > img, .item > img, .code {
+        width: 50.1%;
+        padding-bottom: 3%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .code > img {
+        width: 15%;
+    }
+
+    .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    z-index: 3;
+    }
+ 
+    .modal-content {
+    margin: auto;
+    display: block;
+    width: 20%;
+    max-width: 700px;
+    }
+ 
+    .modal-content { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    }
+ 
+    @-webkit-keyframes zoom {
+        from {-webkit-transform:scale(0)} 
+        to {-webkit-transform:scale(1)}
+    }
+     
+    @keyframes zoom {
+        from {transform:scale(0)} 
+        to {transform:scale(1)}
+    }
+ 
+
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 10%;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+     
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .videolist:hover{ cursor: pointer; }
+
+    .videoed { 
+        display:none; 
+        width:50px; 
+        height:50px; 
+        position: absolute; 
+        left:45%; top:45%; 
+        z-index:99; 
+        border-radius:100%; 
+    }
+
+    .videos{ 
+        display:none; 
+        border: 1px solid #080808; 
+        position:fixed; left:50%; 
+        top:50%; 
+        margin-left:-40%; 
+        margin-top:-300px;
+        z-index:100; 
+        width:80%; 
+    }
+
+    .vclose { 
+        position:absolute;
+        right:1%; 
+        top:1%; 
+        border-radius:100%; 
+        cursor: pointer; 
+    }
+
+    @media only screen and (max-width: 1330px) {
+         html {font-size: 12px;}
+    }
+    @media only screen and (max-width: 1060px) {
+         html {font-size: 9px;}
+         .close {font-size: 20px;}
+    }
+    @media only screen and (max-width: 960px) {
+         html {font-size: 15px;}
+    }
+

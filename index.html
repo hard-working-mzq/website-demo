@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1" />
+	<title>金十交易学院</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="mobile.css"  media="screen and (max-width: 960px)">
+</head>
+<body>
+	<!-- header -->
+	<header class="header_area">
+		<img src="images/网页顶部.png"  alt="">
+	</header>
+	<!-- 客服二维码 -->
+		<img id="fixedqr" src="images/fixedqr.png"  alt="">
+	<section class="middle_area">
+	 <!-- 课程列表 -->
+	 <div class="videos_section">
+	 	<div class="logo">
+	 		<img src="images/标题1.png"  alt="">
+	 	</div>
+	 	<div class="video"></div>
+	 	<img src="images/play.png" class="videoed"/>
+	 	<div class="videos"></div>
+	 </div>
+	 <!-- 权益介绍 -->
+	 <div class="rights_section">
+		<div class="logo">
+	 		<img src="images/标题2.png"  alt="">
+	 	</div>	 		
+	 	<div class="rights">
+	 		<img src="images/rights.png"  alt="">	 		
+	 	</div>
+	 </div>
+	 <!-- 福利放送 -->
+	 <div class="rights_section">
+		<div class="logo">
+	 		<img src="images/标题3.png"  alt="">
+	 	</div>	 		
+	 	<div class="item">
+	 		<img src="images/688.png"  alt="">
+	 		<div class="code">
+	 		<img src="images/二维码.png"  alt="">
+	 		<p>微信扫码立即领取</p>
+	 		</div>
+	 	</div>
+	 </div>
+	</section>
+	<!-- 客服二维码隐藏模态框 -->
+	<div id="myModal" class="modal" style="display: none;">
+  		<span class="close" onclick="document.getElementById('myModal').style.display='none'">×</span>
+  		<img class="modal-content" id="img01" src="images/fixedqr.png">
+	</div>
+	<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="course.js"></script>
+</body>
+</html>

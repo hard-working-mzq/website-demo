@@ -1,0 +1,113 @@
+   
+    header > img {
+    	content: url(images/mobile/header.png);
+    	padding-top: 10%;
+    }
+
+	 #fixedqr {
+	 	content: url(images/mobile/按钮.png);
+	 	width: 95%;
+	 	margin-left: 0;
+	 	margin-top: 100%;
+	 	z-index: 2;
+	 }
+
+    .logo > img {
+		width: 80%;
+    }
+	
+	#item {
+		background-image: url(images/mobile/矩形.png);
+		background-size: cover;
+		padding-bottom: 3%;
+	}
+
+    .Fill {
+    	display: block;
+    	width: 90%;
+    	background-image: none;
+    }
+
+    .Fill > img {
+    	width: 100%;
+    	padding-left: 0;
+    	margin-top: -8%;
+    	margin-bottom: 0;
+    }
+
+    #one1 {
+    	display: block;
+    	width: 25%;
+    	padding-right: 50%;
+    	z-index: 2;
+    }
+
+    #h4, #one2 {
+		display: none;
+    }
+
+	#h5, span {
+    	margin: 5%;
+    }
+
+    #h5 {
+    	display: block;
+    	margin-top: 0%;
+    }
+
+    .text {
+    	background-image: url("images/mobile/形状结合(2).png");
+    	background-repeat: no-repeat;
+    	background-size: 100%;
+    	width: 95%;
+    }
+
+    .btn2 {
+    	display: block;
+    	float: none;
+    	padding-left: 30%;
+    	padding-bottom: 3%;
+    }
+
+    .btn1 {
+    	display: none;
+    }
+
+    .icon {
+    	font-size: 0.8rem;
+    	margin-top: 5%;
+    	background-size: 80%;
+    }
+
+    .rectangle {
+    	background-image: none;
+    	width: 100%;
+    }
+
+    .rectangle > img {
+    	width: 45%;
+    	padding: 1%;
+    	margin-top: 6%;
+    }
+
+    .video1, .video2 {
+    	font-size: 0.6rem;
+    	padding: 2%;
+    	width: 35%;
+    }
+
+    .rights > img {
+    	content: url(images/mobile/rights.png);
+    }
+
+    .item > img {
+    	width: 70%;
+    }
+
+    .code > img {
+    	width: 40%;
+    }
+
+    .modal-content {
+        width: 30%;
+    }
